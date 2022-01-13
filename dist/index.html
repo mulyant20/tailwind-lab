@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Home</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-OpenSans">
+    <!-- header -->
+    <header>
+        <div class="container flex items-center py-4 mt-4 sm:mt-6">
+            <div class="py-1 flex items-center gap-2 text-bookmark-blue text-xl"><img src="../assets/img/Menu.png" alt=""> Bookmark</div>
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
+                <li class="cursor-pointer"><a href="#">Features</a></li>
+                <li class="cursor-pointer"><a href="#">Pricing</a></li>
+                <li class="cursor-pointer"><a href="#">Contact</a></li>
+                <button type="button" class="py-2 px-4 rounded-md bg-bookmark-red text-white uppercase">Login</button>
+            </ul>
+            <div class="flex sm:hidden flex-1 justify-end">
+                <i class="text-2xl fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative">
+        <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+            <div class="flex flex-1 flex-col item-center lg:item-start">
+                <!-- Content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h2 class="text-bookmark-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+                        A Simple Bookmark Manager
+                    </h2>
+                    <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
+                        A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites
+                        load instantly. Try it for free.
+                    </p>
+                    <div class="flex justify-center flex-wrap gap-6">
+                        <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">
+                        Get it on Chrome
+                        </button>
+                        <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">
+                        Get it on Firefox
+                        </button>
+                    </div>
+                </div>
+                <!-- image -->
+                <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="../assets/img/hero-bg.png" alt="" />
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
