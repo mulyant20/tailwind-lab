@@ -8,17 +8,22 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* * {
+            border: 1px solid red;
+        } */
+    </style>
 </head>
 <body class="font-OpenSans">
     <!-- header -->
     <header>
         <div class="container flex items-center py-4 mt-4 sm:mt-6">
-            <div class="py-1 flex items-center gap-2 text-bookmark-blue text-xl"><img src="img/Menu.png" alt=""> Bookmark</div>
+            <div class="py-1"><img src="img/logo-bookmark.svg" alt=""></div>
             <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
                 <li class="cursor-pointer"><a href="#">Features</a></li>
                 <li class="cursor-pointer"><a href="#">Pricing</a></li>
                 <li class="cursor-pointer"><a href="#">Contact</a></li>
-                <button type="button" class="py-2 px-4 rounded-md bg-bookmark-red text-white uppercase">Login</button>
+                <button type="button" class="btn bg-bookmark-red text-white uppercase">Login</button>
             </ul>
             <div class="flex sm:hidden flex-1 justify-end">
                 <i class="text-2xl fas fa-bars"></i>
@@ -52,8 +57,11 @@
                 <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="img/hero-bg.png" alt="" />
             </div>
         </div>
-        <div class="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0">
+        <div class="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:right-0">
         </div>
-        </section>
+    </section>
+
+    
+
     </body>
 </html>
