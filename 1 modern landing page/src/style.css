@@ -16,6 +16,10 @@
     .btn-white {
         @apply bg-bookmark-white
     }
+
+    .btn-red {
+        @apply bg-bookmark-red
+    }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
