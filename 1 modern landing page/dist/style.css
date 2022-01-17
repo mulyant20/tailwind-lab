@@ -642,6 +642,11 @@ video {
   background-color: rgba(247, 247, 247, var(--tw-bg-opacity))
 }
 
+.btn-red {
+  --tw-bg-opacity: 1;
+  background-color: rgba(250, 89, 89, var(--tw-bg-opacity))
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
