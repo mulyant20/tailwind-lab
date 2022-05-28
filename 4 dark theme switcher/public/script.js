@@ -18,4 +18,19 @@ const themeCheck = () => {
     iconSwitch.classList.remove("text-yellow-400")
 }
 
+// manual switch
+const themeSwitch = () => {
+    if(document.documentElement.classList.contains("dark")) {
+        document.documentElement.classList.remove("dark")
+        localStorage.setItem("theme", "light")
+        iconToggle()
+        return
+    }
+    document.documentElement.classList.add("dark")
+    localStorage.setItem("theme", "dark")
+    iconToggle()
+}
+
+btnSwitch.addEventListener('click', () => {themeSwitch()})
+
 themeCheck()
